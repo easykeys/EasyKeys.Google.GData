@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30626.31
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyKeys.Google.GData.Client", "src\EasyKeys.Google.GData.Client\EasyKeys.Google.GData.Client.csproj", "{8368F802-2A17-4ABC-A330-58A10B7D5B81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5A583BF9-E7B7-4DA5-8A07-0160B0B74DE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyKeys.Google.GData.ContentForShopping", "src\EasyKeys.Google.GData.ContentForShopping\EasyKeys.Google.GData.ContentForShopping.csproj", "{6F8E607E-6FE9-4FA2-82B0-7802DE31D72F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyKeys.Google.GData.Extensions", "src\EasyKeys.Google.GData.Extensions\EasyKeys.Google.GData.Extensions.csproj", "{34DEEF55-E79F-4F85-9797-5D148F436FE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A17C5CE0-466F-48E7-A51F-3018B74C8A8B}"
+	ProjectSection(SolutionItems) = preProject
+		build\dependencies.props = build\dependencies.props
+		build\settings.props = build\settings.props
+		build\sources.props = build\sources.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC095B44-6F04-402B-8CD0-724342F1DC1C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		clean.sh = clean.sh
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8368F802-2A17-4ABC-A330-58A10B7D5B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8368F802-2A17-4ABC-A330-58A10B7D5B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8368F802-2A17-4ABC-A330-58A10B7D5B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8368F802-2A17-4ABC-A330-58A10B7D5B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8E607E-6FE9-4FA2-82B0-7802DE31D72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8E607E-6FE9-4FA2-82B0-7802DE31D72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8E607E-6FE9-4FA2-82B0-7802DE31D72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8E607E-6FE9-4FA2-82B0-7802DE31D72F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DEEF55-E79F-4F85-9797-5D148F436FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DEEF55-E79F-4F85-9797-5D148F436FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DEEF55-E79F-4F85-9797-5D148F436FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DEEF55-E79F-4F85-9797-5D148F436FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8368F802-2A17-4ABC-A330-58A10B7D5B81} = {5A583BF9-E7B7-4DA5-8A07-0160B0B74DE7}
+		{6F8E607E-6FE9-4FA2-82B0-7802DE31D72F} = {5A583BF9-E7B7-4DA5-8A07-0160B0B74DE7}
+		{34DEEF55-E79F-4F85-9797-5D148F436FE1} = {5A583BF9-E7B7-4DA5-8A07-0160B0B74DE7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD554021-A22F-4B79-8795-4ED472A0F6B2}
+	EndGlobalSection
+EndGlobal
